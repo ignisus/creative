@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 79.117.241.18
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1702728573181
+  login: 1702728564819
+money: '6050.0'
+last-account-name: eldiosx
+lastlocation:
+  world: c057f25d-3482-4714-b81f-aff86081709e
+  world-name: world
+  x: 11.441549554344896
+  y: -50.38676059544571
+  z: 7.096461120004924
+  yaw: -78.45187377929688
+  pitch: 22.50002670288086
+logoutlocation:
+  world: c057f25d-3482-4714-b81f-aff86081709e
+  world-name: world
+  x: -0.06177481596202141
+  y: -59.0
+  z: 1.6860955680136258
+  yaw: 98.4756851196289
+  pitch: -10.948663711547852

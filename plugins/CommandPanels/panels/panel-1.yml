@@ -1,0 +1,207 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 5
+    commands:
+    - menu
+    title: '&c&lUtilidades:'
+    open-with-item:
+      material: WRITTEN_BOOK
+      name: '&c&lUtilidades'
+      lore:
+      - Click para abrir
+      stationary: 8
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '1':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '2':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '3':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '4':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '5':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '6':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '7':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '8':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '9':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '10':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '11':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '12':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '13':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '14':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '15':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '16':
+        material: YELLOW_STAINED_GLASS_PANE
+        name: ' '
+        stack: 1
+      '17':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '18':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '19':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '20':
+        material: RED_BED
+        stack: 1
+        name: 'Spawn'
+        lore:
+        - 'Ve al spawn con un click'
+        commands:
+        - op= tp 0 -55 0
+      '21':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '22':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '23':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '24':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '25':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '26':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '27':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '28':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '29':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '30':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '31':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '32':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '33':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '34':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '35':
+        material: YELLOW_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '36':
+        material: CLOCK
+        stack: 1
+        name: Volver al lobby
+        commands:
+        - server= lobby
+      '37':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '38':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '39':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '40':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '41':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '42':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '43':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: ' '
+      '44':
+        material: FILLED_MAP
+        name: Mapa online
+        lore:
+        - '&bhttps://ignisus.org/'
+        commands:
+        - op= tellraw @p {"text":"Click aqui para abrir el mapa","color":"aqua","underlined":"false","clickEvent":{"action":"open_url","value":"https://ignisus.org/ignisusland/mapa"}}]
+        stack: 1
+    panelType:
+    - fd
